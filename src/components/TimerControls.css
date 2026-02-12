@@ -1,0 +1,52 @@
+.timer-controls {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.control-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.control-button.secondary {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.control-button.secondary:hover:not(:disabled) {
+    color: white;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.control-button.secondary:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.control-button.primary {
+    width: 5rem;
+    height: 5rem;
+    background: var(--primary);
+    color: white;
+    box-shadow: 0 8px 20px rgba(43, 108, 238, 0.3);
+}
+
+.control-button.primary .material-icons {
+    font-size: 2.5rem;
+    margin-left: 0.25rem;
+}
+
+.control-button .material-icons {
+    font-size: 1.5rem;
+}

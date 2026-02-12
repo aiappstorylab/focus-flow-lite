@@ -1,0 +1,46 @@
+.goal-input-header {
+    width: 100%;
+    max-width: 42rem;
+    margin-top: 2rem;
+}
+
+.goal-input-wrapper {
+    position: relative;
+}
+
+.goal-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: white;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.goal-input::placeholder {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.goal-input:focus {
+    border-bottom-color: var(--primary);
+}
+
+.goal-input-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background: var(--primary);
+    transition: width 0.7s ease;
+}
+
+.goal-input-wrapper:focus-within .goal-input-underline {
+    width: 100%;
+}
