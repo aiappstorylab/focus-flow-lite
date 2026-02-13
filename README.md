@@ -91,6 +91,47 @@ Focus Flow Lite는 **미니멀리즘**과 **프리미엄 경험**을 결합했�
 - **타이포그래피**: Inter 폰트로 가독성과 현대적 느낌 강조
 - **공간감**: 여유로운 여백으로 시각적 안정감 제공
 
+## 📂 워크스페이스 파일
+
+Antigravity로 작업한 주요 파일들입니다:
+
+### 🎯 메인 애플리케이션
+- [App.jsx](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/App.jsx) - 메인 애플리케이션 컴포넌트
+- [App.css](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/App.css) - 메인 애플리케이션 스타일
+- [main.jsx](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/main.jsx) - 앱 엔트리 포인트
+- [index.css](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/index.css) - 글로벌 스타일 및 CSS 변수
+
+### 🧩 컴포넌트
+- [CircularTimer.jsx](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/CircularTimer.jsx) - 원형 타이머 UI
+- [CircularTimer.css](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/CircularTimer.css)
+- [DurationControl.jsx](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/DurationControl.jsx) - 타이머 시간 조절 (1-60분)
+- [DurationControl.css](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/DurationControl.css)
+- [GoalInput.jsx](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/GoalInput.jsx) - 목표 입력 필드
+- [GoalInput.css](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/GoalInput.css)
+- [TimerControls.jsx](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/TimerControls.jsx) - 시작/일시정지/리셋 버튼
+- [TimerControls.css](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/TimerControls.css)
+- [NotificationModal.jsx](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/NotificationModal.jsx) - 세션 완료 알림 모달
+- [NotificationModal.css](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/NotificationModal.css)
+- [Statistics.jsx](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/Statistics.jsx) - 통계 대시보드
+- [Statistics.css](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/components/Statistics.css)
+
+### 🗄️ 상태 관리
+- [timerStore.js](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/src/store/timerStore.js) - Zustand 기반 타이머 상태 관리 및 LocalStorage 통합
+
+### ⚙️ 설정 파일
+- [package.json](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/package.json) - 프로젝트 의존성 및 스크립트
+- [vite.config.js](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/vite.config.js) - Vite 빌드 설정
+- [index.html](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/index.html) - HTML 엔트리 포인트
+
+### 📝 문서
+- [기획서.md](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/기획서.md) - 프로젝트 기획서 및 개발 로드맵
+- [Antigravity_history.md](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/focus-flow-lite/Antigravity_history.md) - Antigravity 개발 히스토리
+
+### 🎨 Stitch 디자인 파일
+- [main_dashboard_variant1.html](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/stitch_designs/main_dashboard_variant1.html)
+- [main_dashboard_variant2.html](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/stitch_designs/main_dashboard_variant2.html)
+- [statistics_screen.html](file:///Users/elzenaro/workspace/notion_stitch_notebooklm/stitch_designs/statistics_screen.html)
+
 ## 🤝 기여하기
 
 기여는 언제나 환영합니다! 다음 단계를 따라주세요:
